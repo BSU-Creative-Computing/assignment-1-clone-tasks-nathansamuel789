@@ -1,0 +1,47 @@
+#container {
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ object-fit: cover;
+ justify-content: center;
+}
+
+p{
+   margin: 10px;
+}
+
+#text{
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 50;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width : 480px){
+    section{width:100%;}
+}
+
+@media screen and (min-width:480px) and (max-width : 800px){
+    section{width:50%;}
+}
+
+@media screen and (min-width : 800px){
+    section{width:30%;}
+}
+
+
+
+
