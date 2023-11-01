@@ -1,0 +1,145 @@
+body{
+    width:100%;
+    margin:auto;
+    text-align: center;
+}
+
+.navigator{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color:cornflowerblue;
+    color: azure;
+}
+
+
+.nav-right li, .nav-mid li {
+    display: inline-block;
+  }
+
+
+
+.nav-mid{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.nav-right{
+    text-align: center;
+    padding-right: 10px;
+}
+
+.nav-right li a, .nav-mid li  a{
+    padding:15px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.intro{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+    padding-bottom: 1px;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    font-size: 14px;
+    margin: 0% 15% 0% 15%;
+  }
+  
+  .container img {
+    width: 95%;
+    padding: 6px;
+    display: block;
+  }
+    
+.Avengers{
+    grid-column: 1;
+    border: 2px solid rgb(234, 233, 233);
+    align-self: center;
+    box-shadow: 0.2px 0.5px rgb(0, 0, 0);
+    padding-bottom: 1px;
+
+}
+
+.gunmen {
+    grid-column: 1;
+    grid-template-columns: 30% 30%;
+    border: 1px solid lightgray;
+    align-self: center;
+    box-shadow: 0.5px 1px lightgray;
+    margin-right: 10px;
+    padding-bottom: 70px;
+}
+
+.movie_right {
+    display: grid;
+    margin: 20px;
+}
+
+.preds{
+    grid-column: 2;
+    grid-template-columns: 30% 30%;
+    border: 1px solid lightgray;
+    box-shadow: 0.5px 1px lightgray;
+    margin-right: 10px;
+    padding-bottom: 70px;
+    
+}
+  
+  .millen{
+    grid-column: 1;
+    grid-template-columns: 30% 30%;
+    border: 1px solid lightgray;
+    align-self: center;
+    box-shadow: 0.5px 1px lightgray;
+    margin-right: 10px;
+    margin-top: 2px;
+    padding-bottom: 70px;
+}
+
+.rage{
+    grid-column: 2;
+    grid-template-columns: 30% 30%;
+    border: 1px solid lightgray;
+    align-self: center;
+    box-shadow: 0.5px 1px lightgray;
+    margin-right: 10px;
+    padding-bottom: 90px;
+}
+
+
+
+  
+  p {
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif ;  
+    text-align: left;
+}
+
+h2{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.button_tap{
+    background-color: #1e90ff;
+    border: 0px;
+    padding: 1px;
+    margin-left: 70px;
+    border-radius: 2px;
+    color:white;
+}
+
+
+
+
