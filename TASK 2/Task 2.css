@@ -143,15 +143,15 @@ p {
 font-size: 12px;
 font-family:Arial, Helvetica, sans-serif ;  }
 
-button {
+button{
+    font-size: 0.75rem;
     background-color: #1e90ff;
-    border: 0px;
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 90px;
-    margin-bottom: 30px;
-    border-radius: 5px;
     color: white;
+
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    border: 0px;
+    margin: 20px 10px 10px 180px;
 }
 
 .button_imp {
@@ -164,6 +164,14 @@ button {
     border-radius: 5px;
     color: white;
     width: 100px;
+}
+
+.avengers button{
+    align-self: flex-end;
+}
+
+.gunmen button{
+    align-content: flex-end;
 }
 
 footer{
@@ -193,17 +201,6 @@ footer{
     .menu {
         display: none;
     }
-    .button_imp {
-        background-color: #1e90ff;
-        border: 0px;
-        padding: 10px;
-        margin-top: 20px;
-        margin-left: 440px;
-        margin-bottom: 30px;
-        border-radius: 5px;
-        color: white;
-        width: 100px;
-    }
 
 @media (width<=1024px){
     .left{
@@ -229,6 +226,8 @@ footer{
     .menu {
         display: none;
     }
+
+    
 }
 
 @media (width<=800px){
@@ -243,6 +242,13 @@ footer{
     }
     .container {
         margin: auto;
+    }
+
+    .left_movie{
+        display:grid;
+        grid-column: 1; 
+        grid-template-columns: 100%;
+        margin: auto;  
     }
     .movie_right{
         display:grid;
@@ -270,9 +276,7 @@ footer{
     .menu{
         display: block;
     }
-    .button_imp {
-        display: none;
-    }
+  
 }
 @media (width<=480px){
     .left{
@@ -299,7 +303,7 @@ footer{
     .menu{
         display: block;
     }
-    .button_imp {
-        display:none;}
+
+    
 
 }
